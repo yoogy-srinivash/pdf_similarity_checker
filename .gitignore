@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+.env.*
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs & Temp Files
+*.log
+*.tmp
+
+# Model / Cache Files
+cache/
+.embeddings/
+*.pt
+*.bin
+
+# Data Files
+data/input_pdf/*.pdf
+data/stored_pdfs/*.pdf
+
+# Database / Secrets
+*.sql
+config.py
+
+# MySQL Dumps
+*.dump
+*.bak
